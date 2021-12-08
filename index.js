@@ -23,7 +23,7 @@ app.use(express.json())
 
 
 const username = 'root'
-const password = 'password123'
+const password = 'password1234'
 
 mongoose.connect(`mongodb://${username}:${password}@mongo:27017/vulnerable`)
   .then(() => console.log('Connected to MongoDB'))
