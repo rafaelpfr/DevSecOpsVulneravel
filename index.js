@@ -11,7 +11,6 @@ const Speaker =  mongoose.model('Speaker');
 
 const auth = require('./middlewares/auth');
 const verifyLogged = require('./middlewares/verifyLogged');
-const verifyRedirect = require('./middlewares/verifyRedirect');
 
 const jwt = require('jsonwebtoken');
 
